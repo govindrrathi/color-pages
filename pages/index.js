@@ -24,9 +24,24 @@ export default function Home() {
         <title>Colors!</title>
         <meta name="description" content="App that displays pretty colors to learn Next!" />
       </Head>
-      <p>
-      THIS IS JUST THE BEGINNING!!
-      </p>
+      <Link href={colors[0].name}>
+      <h2>{colors[0].name}</h2>
+      </Link>
+      <Link href={colors[1].name}>
+      <h2>{colors[1].name}</h2>
+      </Link>
+      <Link href={colors[2].name}>
+      <h2>{colors[2].name}</h2>
+      </Link>
+      <Link href={colors[3].name}>
+      <h2>{colors[3].name}</h2>
+      </Link>
+      <Link href={colors[4].name}>
+      <h2>{colors[4].name}</h2>
+      </Link>
+      <Link href={colors[5].name}>
+      <h2>{colors[5].name}</h2>
+      </Link>
     </div>
   )
 }
